@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Jackson's Page</h1>
+    </header>
+    <nav>
+        <a href="#basketball">Basketball</a>
+        <a href="#games">Games</a>
+        <a href="#music">Music</a>
+        <a href="#movies">Movies</a>
+    </nav>
+    <section id="basketball">
+        <h2>Basketball</h2>
+        <p>Here you'll find everything about my love for basketball.</p>
+    </section>
+    <section id="games">
+        <h2>Games</h2>
+        <p>I enjoy playing various types of games. Let's discuss our favorites!</p>
+    </section>
+    <section id="music">
+        <h2>Music</h2>
+        <p>As a music enthusiast, I love creating demos and exploring new sounds.</p>
+    </section>
+    <section id="movies">
+        <h2>Movies</h2>
+        <p>Discussing movies is one of my favorite pastimes. Let's share recommendations!</p>
+    </section>
+    <footer>
+        <p>Created by Jackson | 2024</p>
+    </footer>
+</body>
+</html>
